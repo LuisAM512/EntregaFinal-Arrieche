@@ -1,0 +1,69 @@
+$Fondo: url("/assets/images/Imagen\ de\ Bodeguero.png");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#fondoEntrada {
+    background-image: $Fondo;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#mainEntrada {
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .logoEntrada {
+        place-items: center;
+        width: 50vw;
+        height: 45vh;
+        max-width: 40vh;
+        max-height: 50vh;
+    }
+}
+
+#sectionEntrada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .botonInicio {
+        background-color: red;
+        color: white;
+        font-size: 27px;
+        border-radius: 8px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 3px;
+    }
+
+    .registro1 {
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .registro2 {
+        color: red;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}

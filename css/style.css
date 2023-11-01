@@ -1,3 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+#fondoEntrada {
+  background-image: url("/assets/images/Imagen de Bodeguero.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#mainEntrada .logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#mainEntrada .logoEntrada {
+  place-items: center;
+  width: 50vw;
+  height: 45vh;
+  max-width: 40vh;
+  max-height: 50vh;
+}
+
+#sectionEntrada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#sectionEntrada .botonInicio {
+  background-color: red;
+  color: white;
+  font-size: 27px;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 3px;
+}
+#sectionEntrada .registro1 {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+#sectionEntrada .registro2 {
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#fondoSesion {
+  background-image: url("/assets/images/Imagen de Bodeguero.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#mainSesion .logo-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#mainSesion .logoSesion {
+  place-items: center;
+  width: 50vw;
+  height: 45vh;
+  max-width: 40vh;
+  max-height: 50vh;
+}
+
+#sectionSesion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  width: 45vh;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+}
+#sectionSesion .form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#sectionSesion #letraBienveida {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+#sectionSesion .letraSesion1 {
+  margin: 10px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+#sectionSesion .letraSesion2 {
+  margin: 10px;
+  font-size: 18px;
+}
+#sectionSesion .letraSesion3 {
+  color: #ff0004;
+  font-size: 18px;
+}
+#sectionSesion #letraSesion3 {
+  margin-top: 10px;
+}
+#sectionSesion .botonSesion {
+  background-color: #ff0004;
+  color: #fff;
+  padding: 7px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#fondo3 {
+  background-image: linear-gradient(grey, red);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#form3a {
+  background-color: rgba(255, 255, 255, 0.626);
+  width: 45vh;
+  margin: auto;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#form3a input[type=text],
+#form3a input[type=email],
+#form3a input[type=tel],
+#form3a input[type=date] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#form3a label {
+  display: block;
+  margin-top: 10px;
+}
+#form3a input[type=submit] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#form3a input[type=button] {
+  background-color: #085ab1;
+  color: white;
+  padding: 10px 17px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#fondo3 {
+  background-image: linear-gradient(grey, red);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#form3a {
+  background-color: rgba(255, 255, 255, 0.626);
+  width: 45vh;
+  margin: auto;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#form3a input[type=text],
+#form3a input[type=email] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#form3a label {
+  display: block;
+  margin-top: 10px;
+}
+#form3a input[type=submit],
+#form3a input[type=reset] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#form3a input[type=button] {
+  background-color: #085ab1;
+  color: white;
+  padding: 10px 17px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer-line {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #918f8f;
+  margin-bottom: 15px;
+}
+
+#mainBorSuperior {
+  border-top: 2px solid #918f8f;
+  padding-top: 20px;
+}
+
+.botonesCarrito {
+  text-align: center;
+}
+.botonesCarrito input[type=button] {
+  background-color: #085ab1;
+  color: white;
+  padding: 5px 17px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  margin-top: 5vh;
+}
+
+section {
+  text-align: center;
+}
+section .img-fluid {
+  width: 100px;
+}
+
+.tituloArticulo {
+  margin-top: 50px;
+}
+
+.articulo {
+  padding: 30px 10%;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+#footerPresentacion .footer-line {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #918f8f;
+}
+
+#FondoCategoria {
+  background-color: rgba(192, 188, 188, 0.3529411765);
+}
+
+#Logo2 {
+  width: 80px;
+}
+
+#Carrito2 {
+  width: 50px;
+}
+
+.container2 {
+  background-color: #f8f9fa;
+}
+
+@media (min-width: 992px) {
+  .container2 {
+    background-color: #f8f9fa;
+  }
+}
+.Despensa2 {
+  width: 80%;
+  border-radius: 10px;
+  filter: drop-shadow(5px 5px 10px rgb(172, 170, 170));
+}
+
+.LogoBN2 {
+  width: 40px;
+}
+
+.LetraDespensa {
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.LetraDespensa1 {
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.container6 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+@media (min-width: 992px) {
+  .container5 .custom-col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .LetraDespensa {
+    font-size: 35px;
+  }
+  .LetraDespensa1 {
+    margin-top: 30px;
+    font-size: 45px;
+  }
+  .container6 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  #Carrito2 {
+    width: 50px;
+    padding-right: 10%;
+  }
+}
+#Logo2 {
+  margin-top: 10px;
+}
+
+#Logo2 {
+  color: aqua;
+}
+
+img {
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
 
 /*# sourceMappingURL=style.css.map */
